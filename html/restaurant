@@ -1,11 +1,4 @@
-import { Inter } from "next/font/google";
-import styles from "../styles/home.module.css";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
-  return (
-    <main className={styles.outerFrame}>
+ <main className={styles.outerFrame}>
       <main className="px-24">
         {/* NAV BAR */}
         <nav className="flex w-full justify-between items-center text-reg ">
@@ -27,5 +20,3 @@ export default function Home() {
         {/* HEADER */}
       </main>
     </main>
-  );
-}

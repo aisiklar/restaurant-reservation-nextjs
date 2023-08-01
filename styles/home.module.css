@@ -6,9 +6,10 @@
 
 .innerFrame {
   background-color: white;
-  padding: 0 0;
-  margin: auto;
-  max-width: 42rem;
+  padding: 0 6rem;
+  /* margin: auto; */
+  /* max-width: 42rem; */
+  width: 100%;
 }
 
 .navContainer {
