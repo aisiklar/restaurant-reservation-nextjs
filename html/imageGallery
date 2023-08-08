@@ -1,0 +1,125 @@
+<main className={styles.outerFrame}>
+      <main className="px-24">
+        {/* NAV BAR */}
+        <nav className="flex w-full justify-between items-center text-reg ">
+          <div>OpenTable</div>
+          <div className="">
+            <button className={styles.buttonSignin}>Sign in</button>
+            <button className={styles.buttonSignup}>Sign up</button>
+          </div>
+        </nav>
+        {/* NAV BAR */}
+        {/* HEADER */}
+        <div className="h-96 overflow-hidden">
+          <div className="bg-center h-full bg-gradient-to-r from-[#0f1f47] to-[#5f6984] flex justify-center items-center">
+            <h1 className="text-7xl text-shadow text-white capitalize">
+              arwin cihangir
+            </h1>
+          </div>
+        </div>
+        {/* HEADER END */}
+        {/* RESTAURANT CARD */}
+
+        <div className="w-2/3 m-auto -mt-[39px] bg-white border border-black h-auto py-2">
+          <div className="flex flex-col">
+            {/* Rest Card Menu Items */}
+            <div className="flex border-b-2">
+              <p className="my-2 mx-4 text-reg">Overview</p>
+              <p className="my-2 mx-4 text-reg">Menu</p>
+            </div>
+            {/* Rest Card Menu Items End */}
+            {/* Rest. Title */}
+            <div className="border-b-2">
+              <p className="text-6xl text-bold mx-2 ">Arwin Cihangir</p>
+            </div>
+            {/* Rest. Title End */}
+          </div>
+          {/* stars and reviews */}
+          <div className="flex mt-2 items-center justify-start">
+            <p className="mx-2">*****</p>
+            <p className="ml-4">xxx reviews</p>
+          </div>
+          {/* stars and reviews end */}
+          {/* Description */}
+          <div className="mt-2">
+            <p className="mx-2 text-lg font-light">
+              lasasassa sasasasasa sasasa sasllasa slasasassa sasasasas
+              asasasasasll asasl asasassa asasasasasasa sasasllasas lasasa
+              ssasas asasa sasasasas asllasas lasasassa sasasas asasasasas asl
+              las aslasas assas
+            </p>
+          </div>
+          {/* Description end */}
+          {/* IMAGES */}
+          <div>
+            <h1 className="font-bold text-2xl mt-10 mb-8 ml-2 pb-4 border-b-2">
+              5 Photos
+            </h1>
+            <div className="flex flex-wrap">
+              <Image
+                className="mb-1 mr-1"
+                alt="image"
+                src="https://resizer.otstatic.com/v2/photos/xlarge/2/51416250.webp"
+                height={11 * 16}
+                width={14 * 16}
+              ></Image>
+              <Image
+                className="mb-1 mr-1"
+                alt="image"
+                src="https://resizer.otstatic.com/v2/photos/xlarge/2/51416269.webp"
+                height={11 * 16}
+                width={14 * 16}
+              ></Image>
+              <Image
+                className="mb-1 mr-1"
+                alt="image"
+                src="https://resizer.otstatic.com/v2/photos/xlarge/2/51416262.webp"
+                height={11 * 16}
+                width={14 * 16}
+              ></Image>
+              <Image
+                className="mb-1 mr-1"
+                alt="image"
+                src="https://resizer.otstatic.com/v2/photos/xlarge/2/51416250.webp"
+                height={11 * 16}
+                width={14 * 16}
+              ></Image>
+              <Image
+                className="mb-1 mr-1"
+                alt="image"
+                src="https://resizer.otstatic.com/v2/photos/xlarge/2/51416255.webp"
+                height={11 * 16}
+                width={14 * 16}
+              ></Image>
+            </div>
+          </div>
+          {/* IMAGES end */}
+          {/* REVIEWS */}
+          <div className="border-b-2 py-2 mb-4">
+            <h1 className="ml-4 mt-10 mb-10 font-bold ">
+              What 100 people are saying
+            </h1>
+            <div className="flex flex-col">
+              <div className="flex">
+                <div className="flex flex-col ml-2 mr-20 items-center justify-center">
+                  <div className="rounded-full bg-blue-400 p-3  text-white">
+                    MJ
+                  </div>
+                  <div>Michael Jordan</div>
+                </div>
+                <div className="flex flex-col">
+                  <div className="mb-2">****</div>
+                  <div>
+                    {" "}
+                    comments comments comments comments comments comments
+                    comments comments{" "}
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          {/* REVIEWS end */}
+          {/* RESTAURANT CARD END */}
+        </div>
+      </main>
+    </main>

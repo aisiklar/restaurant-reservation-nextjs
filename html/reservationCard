@@ -1,12 +1,4 @@
-import { Inter } from "next/font/google";
-import styles from "../styles/home.module.css";
-import Image from "next/image";
-
-const inter = Inter({ subsets: ["latin"] });
-
-export default function Home() {
-  return (
-    <main className="bg-gray-100 min-h-screen w-screen">
+<main className="bg-gray-100 min-h-screen w-screen">
       <main className="px-24 m-auto bg-white max-w-screen-2xl">
         {/* NAV BAR */}
         <nav className="flex w-full justify-between items-center text-reg ">
@@ -180,5 +172,3 @@ export default function Home() {
         {/* RESERVATION CARD end */}
       </main>
     </main>
-  );
-}
